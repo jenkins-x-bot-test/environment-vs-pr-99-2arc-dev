@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:vs-pr-99-2arc/adminUser:password
+  username: admin
+dashboardAuthID: vault:vs-pr-99-2arc:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:vs-pr-99-2arc:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:vs-pr-99-2arc/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:vs-pr-99-2arc/prow:hmacToken
